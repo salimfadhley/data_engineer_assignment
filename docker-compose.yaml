@@ -1,0 +1,19 @@
+version: '3.7'
+services:
+  postgres:
+    image: library/postgres
+    restart: unless-stopped
+    ports:
+    - 5432:5432/tcp
+    environment:
+    - POSTGRES_PASSWORD=secretpassword
+    - POSTGRES_USER=application
+    - POSTGRES_DB=application
+
+    hostname: postgres
+    volumes:
+    - ./pgdata/data:/var/lib/postgresql/data
+
+
+#volumes:
+#  pgdata-volume:
