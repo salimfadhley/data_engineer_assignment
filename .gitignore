@@ -193,4 +193,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-./pgdata/**
+pgdata
+
+.idea/**/*.xml
