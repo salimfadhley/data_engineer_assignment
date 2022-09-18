@@ -16,7 +16,7 @@ Please submit your work back as a zip file. Include any file or component which 
 
 Our data scientists are working on a new image classifier. They require somme images in order to train the system. They have identified a public source of images which may be suitable at this URL:
 
-http://groups.csail.mit.edu/vision/TinyImages/thumbnails64x64/
+https://academictorrents.com/details/5f755e078ee9195b8ae0b3336710e6ce92ef3251
 
 We want these images to be downloaded and placed into a database. The data scientists have determined that 1000 images will be sufficient for now, but more images may be required in the near future. It should be possible to re-run your script in order to fetch even more images.
 
